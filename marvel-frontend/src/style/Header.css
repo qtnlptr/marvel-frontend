@@ -1,0 +1,101 @@
+header {
+  background-color: #202020;
+  height: 104px;
+  padding-top: 48px;
+  position: fixed;
+  top: 0;
+  z-index: 20;
+}
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.burger-cta {
+  border: none;
+  background-color: #ffffff00;
+}
+
+.burger-menu {
+  color: white;
+  font-size: 24px;
+  height: 40px;
+}
+
+.container img {
+  height: 40px;
+}
+
+.burger-closed {
+  display: none;
+}
+
+.burger-open {
+  display: flex;
+  gap: 32px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100vh;
+  width: 75%;
+  background-color: #151515;
+  color: white;
+  flex-direction: column;
+  padding: 16px;
+  padding-top: 32px;
+  transition: 0.3s ease;
+  z-index: 10;
+  align-items: flex-start;
+  padding: 8px;
+
+  padding-top: 48px;
+}
+
+a {
+  text-decoration: none;
+}
+
+nav p {
+  color: white;
+  font-size: 20px;
+}
+
+.nav-items {
+  border: none;
+  background: #ffffff00;
+  color: white;
+  font-size: 16px;
+}
+
+.sign-up-cta {
+  border: none;
+  width: 120px;
+  height: 32px;
+  color: white;
+  background-color: red;
+  border-radius: 8px;
+  font-size: 16px;
+  padding: 8px;
+}
+
+.login-cta {
+  border: none;
+  width: 120px;
+  color: red;
+  text-align: left;
+  background-color: #ffffff00;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+.logout-cta {
+  border: none;
+  width: 120px;
+  color: red;
+  text-align: left;
+  background-color: #ffffff00;
+  border-radius: 8px;
+  font-size: 16px;
+}

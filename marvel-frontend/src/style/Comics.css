@@ -1,0 +1,90 @@
+.loading {
+  height: 100vh;
+  background-color: #ffffff20;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff75;
+}
+
+.hero-comics {
+  margin-top: 104px;
+  height: 390px;
+  margin-bottom: 32px;
+  background-image: linear-gradient(#20202000, #202020),
+    url("src/assets/comics-cover.jpg");
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: center;
+  justify-content: flex-end;
+  padding-bottom: 48px;
+  color: white;
+}
+
+.hero-comics h2 {
+  font-size: 32px;
+}
+
+.hero-comics p {
+  text-align: center;
+  font-size: 14px;
+  line-height: 16px;
+  color: #ffffff90;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+.comics-list {
+  padding: 16px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.comics-container {
+  display: flex;
+}
+
+.comics-page {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+}
+
+.comic-card {
+  width: 171px;
+  position: relative;
+}
+
+.comic-title {
+  height: 16px;
+  color: white;
+  font-size: 14px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.comic-description {
+  height: 24px;
+  font-size: 12px;
+  color: white;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  color: #999999;
+  white-space: nowrap;
+}
+
+.comic-card img {
+  width: 100%;
+  object-fit: cover;
+  border: 4px #ff000020 solid;
+}
+
+.pagination-comics {
+  align-self: center;
+}

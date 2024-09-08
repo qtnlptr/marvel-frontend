@@ -1,0 +1,70 @@
+body {
+  font-family: "Roboto", system-ui;
+}
+
+body {
+  background-color: #202020;
+}
+
+.container-all {
+  width: 100%;
+  max-width: 1024px;
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+
+@media (min-width: 1024px) {
+  .container-all {
+    width: 1024px;
+    margin: 0 auto;
+  }
+
+  .search-box {
+    max-width: 1024px;
+    padding: 16px;
+  }
+  section,
+  .hero,
+  .hero-comics,
+  .comics-list,
+  .hero-char,
+  nav,
+  .pagination-comics {
+    width: 1024px;
+  }
+
+  header .container {
+    width: 1024px;
+    display: flex;
+    margin: 0 auto;
+  }
+}
+@media (max-width: 1024px) {
+  .char-list {
+    width: 100vw;
+  }
+  .hero,
+  .hero-comics,
+  .hero-char {
+    width: 100vw;
+  }
+  header {
+    width: 100vw;
+  }
+}
+
+footer div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 16px;
+  color: white;
+  padding: 40px;
+  background-color: #151111;
+  width: 100%;
+}
+
+footer div p {
+  text-align: center;
+}

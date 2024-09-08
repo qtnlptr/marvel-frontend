@@ -1,0 +1,190 @@
+* {
+  box-sizing: border-box;
+}
+
+.char-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.overlay-char-page {
+  opacity: 0.5;
+}
+
+.hero {
+  margin-top: 104px;
+  height: 390px;
+  margin-bottom: 24px;
+  background-image: linear-gradient(#20202000, #202020),
+    url("src/assets/characters-marvel.jpeg");
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: center;
+  justify-content: flex-end;
+  padding-bottom: 48px;
+  color: white;
+}
+
+.hero h2 {
+  font-size: 32px;
+}
+
+.hero p {
+  text-align: center;
+  font-size: 14px;
+  line-height: 16px;
+  color: #ffffff90;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+/* <img src="src/assets/characters-marvel.jpeg" alt="characters-marvel" /> */
+
+/* .hero img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+} */
+
+h1 {
+  align-self: flex-start;
+  color: white;
+  font-size: 32px;
+  padding-left: 16px;
+  margin-bottom: 24px;
+}
+
+.search-box {
+  display: flex;
+  width: 100vw;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 24px;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.search {
+  align-self: flex-start;
+  height: 32px;
+  width: 100vw;
+  background-color: #ffffff00;
+  font-size: 16px;
+  color: white;
+  border: none;
+  flex: 5;
+  border-bottom: 1px #ffffff50 solid;
+}
+
+.search-box > span {
+  text-align: right;
+  color: white;
+  flex: 1;
+}
+
+.invisible {
+  display: none;
+}
+
+.search:focus {
+  outline: none;
+  border-bottom: 1px white solid;
+  color: white;
+}
+
+input[type="search"]::-webkit-search-cancel-button {
+  -webkit-appearance: none;
+  height: 20px;
+  width: 20px;
+}
+
+.char-list {
+  padding: 16px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.char-card {
+  width: 171px;
+  height: 280px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 16px;
+  position: relative;
+}
+
+.char-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+  border-radius: 16px;
+  position: relative;
+}
+
+.char-details {
+  display: flex;
+  flex-direction: column;
+  padding: 8px;
+  padding-bottom: 16px;
+  padding-top: 20px;
+  position: absolute;
+  bottom: 0;
+  width: 171px;
+  height: 33%;
+  background: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 0.8) 0%,
+    rgba(0, 0, 0, 0.2) 100%
+  );
+  border-radius: 0 0 16px 16px;
+  backdrop-filter: blur(2px);
+  justify-content: space-around;
+}
+
+.char-name {
+  color: white;
+  font-weight: 500;
+  font-size: 20px;
+  margin: 0;
+  text-overflow: ellipsis;
+}
+
+.char-description {
+  color: #e0e0e0;
+  font-size: 14px;
+  margin: 0;
+  margin-top: 4px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  font-weight: 200;
+}
+
+.fav-cta {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  border-radius: 50%;
+  height: 24px;
+  width: 24px;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.heart-filled {
+  color: red;
+  font-size: 16px;
+}
+
+.heart-empty {
+  color: red;
+  font-size: 16px;
+}

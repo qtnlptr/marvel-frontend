@@ -1,0 +1,32 @@
+.Home {
+  margin-top: 104px;
+  padding-top: 32px;
+  height: 80vh;
+}
+
+.Home h1 {
+  text-align: center;
+}
+.Home h3 {
+  text-align: center;
+  color: #999999;
+}
+
+.Home img {
+  height: 500px;
+}
+
+.hero-poster {
+  height: 390px;
+  margin-bottom: 24px;
+  background-image: linear-gradient(#20202000, #202020),
+    url("src/assets/marvelposter.jpg");
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: center;
+  justify-content: flex-end;
+  padding-bottom: 48px;
+  color: white;
+}

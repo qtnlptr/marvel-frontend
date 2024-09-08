@@ -1,0 +1,76 @@
+main section {
+  position: relative;
+  margin: 0 auto;
+}
+
+.back {
+  position: absolute;
+  top: 40px;
+  left: 16px;
+  font-size: 32px;
+  color: white;
+}
+
+.hero-char {
+  height: 420px;
+  display: flex;
+}
+
+.hero-char h1 {
+  align-self: flex-end;
+  font-size: 56px;
+}
+
+.hero-char button {
+  position: absolute;
+  top: 40px;
+  right: 16px;
+  font-size: 48px;
+  height: 32px;
+  width: 32px;
+}
+
+.description {
+  display: flex;
+  padding-left: 16px;
+  padding-right: 16px;
+  color: white;
+  font-size: 14px;
+  line-height: 16px;
+  color: #999999;
+}
+
+.comics-mentions {
+  display: flex;
+  padding: 16px;
+}
+
+.comics-mentions h2 {
+  margin-top: 16px;
+  color: #c4c4c4;
+  font-size: 24px;
+}
+
+.comics-mentions {
+  display: flex;
+  flex-direction: column;
+}
+
+.all-comics {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 32px;
+}
+
+.comic-card {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  width: 171px;
+  margin-bottom: 24px;
+}
+
+.no-comics {
+  color: white;
+}

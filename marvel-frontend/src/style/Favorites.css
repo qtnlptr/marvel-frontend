@@ -1,0 +1,16 @@
+.favorites {
+  margin-top: 104px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.favorites h1 {
+  padding-top: 32px;
+}
+
+.favorites h2 {
+  color: #999999;
+  font-size: 20px;
+  padding-left: 16px;
+}
